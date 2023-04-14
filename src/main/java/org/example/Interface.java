@@ -120,11 +120,10 @@ public class Interface {
                 break;
         }
     }
-    public Boolean end(){
+
+    public Boolean end() {
         return calculator.getFlag();
     }
-
-
 
 
 }

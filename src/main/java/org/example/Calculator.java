@@ -18,7 +18,6 @@ public class Calculator<T extends Number> {
 
     private Boolean flag;
 
-
     public Double sum() {
         Double result = num1.doubleValue() + num2.doubleValue();
         BigDecimal bD = new BigDecimal(result);
